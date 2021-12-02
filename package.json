@@ -1,0 +1,22 @@
+{
+  "name": "napp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --inspect ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "compressing": "^1.5.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "download-git-repo": "^3.0.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}

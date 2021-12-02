@@ -1,0 +1,30 @@
+/*
+* rem设置
+*/
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+      font-size: 30.5% !important;
+    }
+  }
+    
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    html {
+      font-size: 45.5% !important;
+    }
+  }
+    
+  @media only screen and (min-width: 1670px) {
+    html {
+      font-size: 62.5% !important;
+    }
+  }
+  html, body {
+    height: 100%;
+    margin: 0
+  }
+  ul li {
+    list-style: none;
+  }
